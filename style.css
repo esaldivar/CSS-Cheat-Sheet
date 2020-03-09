@@ -1,0 +1,170 @@
+*{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+html, body {
+    background-color: black;
+    width: 100%;
+}
+
+
+
+.bannerImage {
+    background-image: url(Images/BannerImagePaint.png);
+    width: 100%;
+    height: 500px;
+    font-size: 50px;
+}
+
+.bannerImage h1 {
+    opacity: 0.75;
+    padding: 200px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: black;
+    border-bottom: 1px solid white;
+    z-index: 3;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 65px;
+    overflow: hidden;
+  }
+  li {
+    font-size: 30px;
+  }
+   li a  {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: rgb(128, 128, 134);
+}
+  #navIcon {
+      float: left;
+      border: 5px solid white;
+      margin-left: 50px;
+      padding: 0;
+      height: 165px;
+      width: 165px;
+      position: absolute;
+      top: -50px;
+      border-radius: 100px;
+  }
+  
+  #navIcon a {
+      padding: 0;
+      margin: 0;
+  }
+
+  #navIcon a:hover {
+      background-color: white;
+      padding: 0;
+      margin: 0 auto;
+      border-radius: 100px;
+  }
+  
+  #navIcon img {
+    height: 165px;
+    width: 165px;
+    margin: 0;
+    padding: 0;
+    border-radius: 100px;
+  }
+  .navLinks {
+      float: right;
+      border-right: 1px solid white;
+  }
+  .active {
+      background-color: rgb(231, 227, 227);
+      color: black;
+  }
+
+  /* start of styling boxes */
+  
+  .styleGuide
+  {
+      background-image: url(Images/resized\ paint\ splatter.jpg);
+      height: 1000px;
+      padding-top: 150px;
+  }
+
+  .styleGuide h1 {
+        font-size: 80px;
+        color: black;
+  }
+
+  /* start of coloring guides */
+
+
+  .color {
+    color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    border: 5px solid white;
+    height: 250px;
+    width: 75%;
+    padding: 50px 25px 50px 25px;
+    opacity: 0.9;
+  }
+
+  .color p {
+      color: black;
+      font-size: 35px;
+      float: left;
+  }
+
+  .color a {
+      color: red;
+      text-decoration: none;
+  }
+
+  .color h2 {
+      color: black;
+      font-size: 35px;
+      float: right;
+      font-weight: 100;
+      margin-top: 25px;
+      text-align: left;
+  }
+
+  .color form {
+      color:black;
+  }
+
+  .color form label{
+      color: red;
+  }
+
+  .color form input {
+      color: blue;
+      height: 25px;
+      width: 150px;
+      font-size: 25px;
+  }
+
+  #colorButton {
+      height: 48px;
+      width: 48px;
+  }
+
+  #colorChange  {
+      color: blue;
+      text-align: center;
+      margin: 50px 0 10px 125px;
+  }
+
+  /* end of coloring guide */
+
+  /* end of styling boxes */
